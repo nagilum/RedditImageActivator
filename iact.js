@@ -48,7 +48,7 @@ $('a.title').each(function () {
         imgurl = href;
 
     if (typeof href === 'undefined')
-      href = '';
+      return;
 
     // Check for image link.
     if (href.indexOf('imgur.com') > -1 ||
