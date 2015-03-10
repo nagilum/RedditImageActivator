@@ -8,7 +8,7 @@
  */
 
 var iact_windowHeight         = parseInt($(window).height(), 10),
-    iact_imageMaxHeight       = iact_windowHeight - 30,
+    iact_imageMaxHeight       = iact_windowHeight - 65,
     iact_sideBarWidth         = parseInt($('div.side').width, 10),
     iact_contentWidth         = parseInt($('div.content').width, 10),
     iact_imageMaxWidth        = iact_contentWidth - iact_sideBarWidth,
